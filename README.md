@@ -1,11 +1,3 @@
-# 👋 Hi, I'm dev365code!
-
-- 🌱 Currently learning **Java / Spring / Algorithm (Baekjoon)**
-- 🔭 Interested in **Backend Development, AI, and Problem Solving**
-- 💡 Always trying to **write clean code and learn new things**
-
----
-
 ## 📊 GitHub Stats
 ![dev365code's GitHub stats](https://github-readme-stats.vercel.app/api?username=dev365code&show_icons=true&theme=radical)
 
