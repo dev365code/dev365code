@@ -12,7 +12,7 @@
 ---
 
 ## 🏆 Baekjoon Online Judge
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dev365code)](https://solved.ac/dev365code)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dev365code)](https://solved.ac/zero8004paz)
 
 ---
 
