@@ -16,7 +16,7 @@ centred -- align=center resolves to text-align, which centres each line inside
 the <pre> separately and tears the ASCII apart -- and because GitHub does not
 render ANSI colour in Markdown.
 """
-import json, os, pathlib, sys, urllib.request
+import hashlib, json, os, pathlib, sys, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 USER = "dev365code"
@@ -193,10 +193,14 @@ def svg(theme):
     out.append("</svg>")
     return "\n".join(out) + "\n"
 
+# GitHub proxies README images through camo and caches them by URL. Same file
+# name, same cached bytes -- a redeploy would keep serving the old panel for
+# hours. The content hash in the query makes the URL change whenever the
+# picture does, so what a reader sees is never behind what is committed.
 README = """<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg">
-    <img alt="{alt}" src="profile-light.svg" width="{w}">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v={dark}">
+    <img alt="{alt}" src="profile-light.svg?v={light}" width="{w}">
   </picture>
 </div>
 """
@@ -204,10 +208,12 @@ README = """<div align="center">
 def build():
     art_w, _, _, _ = dims()
     files = {f"profile-{t}.svg": svg(t) for t in THEMES}
+    tag = lambda t: hashlib.sha256(files[f"profile-{t}.svg"].encode()).hexdigest()[:10]
     files["README.md"] = README.format(
         alt=esc("dev365code - " + " / ".join(
             f"{r[1]}: {r[2]}" for r in ROWS if r[0] == "row")),
-        w=round(art_w + GAP_PX + PANEL_W * CW) + PAD * 2)
+        w=round(art_w + GAP_PX + PANEL_W * CW) + PAD * 2,
+        dark=tag("dark"), light=tag("light"))
     return files
 
 LIVE = HERE / "live.json"
