@@ -20,7 +20,7 @@ import hashlib, json, os, pathlib, sys, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 USER = "dev365code"
-PANEL_W = 58
+PANEL_W = 56
 GAP_PX = 44
 FONT_PX, LINE_H, CW = 14, 20, 8.4
 SCALE = float(os.environ.get("SCALE", 2.0))   # how much bigger the 365 runs
@@ -29,25 +29,20 @@ PAD = 26
 HOST = "wooyong@lee"
 ROWS = [
     ("row",  "OS",                    "macOS 26.5.1, Linux"),
-    ("row",  "Host",                  "MacBook (Apple M5)"),
-    ("row",  "Kernel",                "Darwin 25.5.0"),
-    ("row",  "IDE",                   "VS Code 1.134.0"),
     ("row",  "Shell",                 "zsh"),
+    ("row",  "Editor",                "VS Code"),
     ("row",  "Location",              "Seoul, KR"),
     ("gap",),
     ("row",  "Languages.Programming", "Python, Java, JavaScript"),
-    ("row",  "Languages.Computer",    "HTML, CSS, JSON, YAML, RDF/XML"),
     ("row",  "Languages.Real",        "Korean, English"),
-    ("gap",),
-    ("row",  "Hobbies.Software",      "algorithmic trading, ASCII art"),
-    ("row",  "Hobbies.Offline",       "jigsaw puzzles"),
+    ("row",  "Hobbies",               "algorithmic trading, jigsaw puzzles"),
     ("sect", "Projects"),
     ("row",  "iirds-validate",        "185 rules, offline, Apache-2.0"),
     ("row",  "document AI",           "structure out of PDFs"),
     ("sect", "Contact"),
-    ("row",  "Email.Personal",        "zero8004paz@gmail.com"),
+    ("row",  "Email",                 "zero8004paz@gmail.com"),
     ("row",  "GitHub",                USER),
-    ("sect", "GitHub Stats"),
+    ("sect", "git status"),
     ("row",  "Commits",               "541 (339 in 2026)"),
     ("row",  "Latest push",           "dev365code, 2026-08-20"),
 ]
