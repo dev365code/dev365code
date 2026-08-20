@@ -47,6 +47,11 @@ ROWS = [
     ("row",  "Latest push",           "dev365code, 2026-08-20"),
 ]
 
+# The handle reads dev / 365 / code down the left column: the numerals large,
+# the two words set light at the panel's own size and colour, dev flush with
+# the left edge of the art and code flush with its right.
+MARK_TOP, MARK_BOTTOM = "dev", "code"
+
 # figlet "colossal", drawn at SCALE x the panel's type size
 ART = r"""
  .d8888b.  .d8888b. 888888888
@@ -151,7 +156,7 @@ def esc(s):
 
 def dims():
     art_w = max(len(l) for l in ART) * CW * SCALE
-    art_h = len(ART) * LINE_H * SCALE
+    art_h = len(ART) * LINE_H * SCALE + 2 * LINE_H      # the two mark lines
     rows_ = panel()
     body_h = max(art_h, len(rows_) * LINE_H)
     return art_w, art_h, rows_, body_h
@@ -179,9 +184,13 @@ def svg(theme):
                    f'lengthAdjust="spacing">{spans}</text>')
 
     top = PAD + (body_h - art_h) / 2
+    text(PAD, top + FONT_PX, [("value", MARK_TOP)])
     for i, line in enumerate(ART):
-        text(PAD, top + (i + 1) * LINE_H * SCALE - 4 * SCALE,
+        text(PAD, top + LINE_H + (i + 1) * LINE_H * SCALE - 4 * SCALE,
              [("art", line.rstrip())], SCALE)
+    text(PAD + art_w - len(MARK_BOTTOM) * CW,
+         top + LINE_H + len(ART) * LINE_H * SCALE + FONT_PX,
+         [("value", MARK_BOTTOM)])
     top = PAD + (body_h - len(rows_) * LINE_H) / 2
     for i, line in enumerate(rows_):
         text(PAD + art_w + GAP_PX, top + i * LINE_H + FONT_PX, line)
