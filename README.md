@@ -1,4 +1,29 @@
-<div align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=zero8004paz" height="180px"/>
-</div>
+```ansi
+           __         _____ _____ ______               __
+      ____/ /__ _   _|__  // ___// ____/________  ____/ /__
+     / __  / _ \ | / //_ </ __ \/___ \/ ___/ __ \/ __  / _ \
+    / /_/ /  __/ |/ /__/ / /_/ /___/ / /__/ /_/ / /_/ /  __/
+    \__,_/\___/|___/____/\____/_____/\___/\____/\__,_/\___/
+
+[1mwylee@github [90m───────────────────────────────────────────────────[0m
+[90m. [33mOS:[90m ............................................. [34mmacOS, Linux[0m
+[90m. [33mShell:[90m ................................................... [34mzsh[0m
+[90m. [33mEditor:[90m .............................................. [34mVS Code[0m
+[90m. [33mLocation:[90m .......................................... [34mSeoul, KR[0m
+
+[90m. [33mLanguages.Programming:[90m .............. [34mPython, Java, JavaScript[0m
+[90m. [33mLanguages.Data:[90m .............................. [34mSQL, RDF/SPARQL[0m
+[90m. [33mLanguages.Real:[90m .............................. [34mKorean, English[0m
+
+[90m. [33mHobbies.Software:[90m ............. [34malgorithmic trading, ASCII art[0m
+[90m. [33mHobbies.Hardware:[90m ............................. [34membedded Linux[0m
+
+[90m─ [1mProjects [90m─────────────────────────────────────────────────────[0m
+[90m. [33miirds-validate:[90m ............... [34m185 rules, offline, Apache-2.0[0m
+[90m. [33mshannon-trading:[90m ................. [34mvolatility harvesting, live[0m
+[90m. [33mdocument AI:[90m ........................... [34mstructure out of PDFs[0m
+
+[90m─ [1mContact [90m──────────────────────────────────────────────────────[0m
+[90m. [33mEmail:[90m ................................. [34mzero8004paz@gmail.com[0m
+[90m. [33mGitHub:[90m ........................................... [34mdev365code[0m
+```
