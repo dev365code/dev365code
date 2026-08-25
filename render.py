@@ -16,7 +16,8 @@ centred -- align=center resolves to text-align, which centres each line inside
 the <pre> separately and tears the ASCII apart -- and because GitHub does not
 render ANSI colour in Markdown.
 """
-import hashlib, json, os, pathlib, sys, urllib.request
+import hashlib
+import re, json, os, pathlib, sys, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 USER = "dev365code"
@@ -201,23 +202,41 @@ def svg(theme):
 # name, same cached bytes -- a redeploy would keep serving the old panel for
 # hours. The content hash in the query makes the URL change whenever the
 # picture does, so what a reader sees is never behind what is committed.
-README = """<div align="center">
+# render.py owns only the picture block. Everything outside the two markers
+# is hand-written and must survive a re-render -- the 2026-08-25 refresh wiped
+# a day's worth of prose because the whole file was regenerated from here.
+START = "<!-- profile:start (rendered by render.py -- edit render.py, not this block) -->"
+END = "<!-- profile:end -->"
+PICTURE = """<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v={dark}">
     <img alt="{alt}" src="profile-light.svg?v={light}" width="{w}">
   </picture>
-</div>
-"""
+</div>"""
+
+def splice(existing, picture):
+    """Replace the marker region; keep every other byte. A README without
+    markers gets them wrapped around its leading picture block, or prepended."""
+    block = f"{START}\n{picture}\n{END}"
+    if START in existing and END in existing:
+        pre, rest = existing.split(START, 1)
+        _, post = rest.split(END, 1)
+        return pre + block + post
+    m = re.match(r'<div align="center">.*?</div>\n?', existing, re.S)
+    body = existing[m.end():] if m else existing
+    return block + "\n" + body
 
 def build():
     art_w, _, _, _ = dims()
     files = {f"profile-{t}.svg": svg(t) for t in THEMES}
     tag = lambda t: hashlib.sha256(files[f"profile-{t}.svg"].encode()).hexdigest()[:10]
-    files["README.md"] = README.format(
+    picture = PICTURE.format(
         alt=esc("dev365code - " + " / ".join(
             f"{r[1]}: {r[2]}" for r in ROWS if r[0] == "row")),
         w=round(art_w + GAP_PX + PANEL_W * CW) + PAD * 2,
         dark=tag("dark"), light=tag("light"))
+    readme = HERE / "README.md"
+    files["README.md"] = splice(readme.read_text() if readme.exists() else "", picture)
     return files
 
 LIVE = HERE / "live.json"
