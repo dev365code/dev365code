@@ -1,52 +1,14 @@
-<!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=900098f0a4">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 185 rules, offline, Apache-2.0 / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 1,497 (1,295 in 2026) / Latest push: vdi2770-validate, 2026-09-03" src="profile-light.svg?v=58f0ab0d21" width="1070">
-  </picture>
+  <img src="assets/hero.svg" alt="Standards, judged offline — AI proposes, rules judge, people decide. Machines enter Europe on paperwork; these tools judge the paperwork. iiRDS · VDI 2770 · AAS" width="100%">
 </div>
-<!-- profile:end -->
 
----
-
-## Referees for industrial documentation standards
-
-Machine documentation runs on standards — **iiRDS**, **VDI 2770**, the
-**AAS submodel templates** — and almost none of them ship an open, offline
-conformance checker. This account builds that layer: validators that say
-*what* is wrong, *where the specification says so*, and *how to fix it*.
-Verdicts are free, forever.
-
-### Sixty seconds
-
-```bash
-pip install iirds-validate
-iirdsv check manual.iirds        # every finding cites the clause and carries a remedy
-iirdsv rules M11 -v              # what a rule enforces, its source, its fix
-```
-
-Nothing leaves your machine. There is no server.
-
-### What exists
-
-| standard | tool | |
+|  |  |  |
 |---|---|---|
-| iiRDS 1.3 — packages, metadata graph, content | [**iirds-validate**](https://github.com/dev365code/iirds-validate) | [![PyPI](https://img.shields.io/pypi/v/iirds-validate)](https://pypi.org/project/iirds-validate/) |
-| VDI 2770 — documentation containers | [**vdi2770-validate**](https://github.com/dev365code/vdi2770-validate) | [![PyPI](https://img.shields.io/pypi/v/vdi2770-validate)](https://pypi.org/project/vdi2770-validate/) |
-| AAS submodels — instances against IDTA templates | [**aas-submodel-validate**](https://github.com/dev365code/aas-submodel-validate) | public, pre-release |
-| iiRDS read/write | [**iirds**](https://github.com/dev365code/iirds) (SDK) | [![PyPI](https://img.shields.io/pypi/v/iirds)](https://pypi.org/project/iirds/) |
-| the standards themselves — templates, releases, calls | [**standards-watch**](https://github.com/dev365code/standards-watch) | [RSS](https://raw.githubusercontent.com/dev365code/standards-watch/main/feed.xml) |
+| [**`iirds`**](https://github.com/dev365code/iirds-validate) | Judges **iiRDS 1.3** documentation packages — validator + reader, one install | [![PyPI](https://img.shields.io/pypi/v/iirds?label=PyPI&color=2f6fb3)](https://pypi.org/project/iirds/)<br>`▰▰▰▱▱▱▱▱▱▱` `77 / 280 obligations · a floor` |
+| [**`vdi2770-validate`**](https://github.com/dev365code/vdi2770-validate) | Judges **VDI 2770** documentation containers for machine delivery | [![PyPI](https://img.shields.io/pypi/v/vdi2770-validate?label=PyPI&color=2f6fb3)](https://pypi.org/project/vdi2770-validate/)<br>`obligation index: in the making` |
+| [**`aas-submodel-validate`**](https://github.com/attesta-standards/aas-submodel-validate) | Judges **AAS submodels** against IDTA templates | [![PyPI](https://img.shields.io/pypi/v/aas-submodel-validate?label=PyPI&color=3d8b57)](https://pypi.org/project/aas-submodel-validate/)<br>`template packs: 3 shipped` |
+| [**`standards-watch`**](https://github.com/dev365code/standards-watch) | Watches **the standards themselves** — releases, errata, template changes | [RSS](https://raw.githubusercontent.com/dev365code/standards-watch/main/feed.xml) · `daily, on the record` |
 
-### How they are built
+<p align="center">First verdict in ten seconds — <code>pip install iirds</code></p>
 
-- Every rule cites the clause it enforces. Every fixture that once caught
-  something stays as a regression.
-- Coverage is measured against the *specification*, not the rule catalogue.
-  iirds-validate maps [19 of 314](https://github.com/dev365code/iirds-validate/blob/main/docs/scope.md)
-  absolute obligations today and says so in writing — "no findings" is not
-  "conformant".
-- Offline by construction. Rules are the source of truth; generated
-  artefacts are regenerated, never hand-edited.
-
-Not affiliated with the iiRDS Consortium, tekom, VDI or IDTA — the names
-are used descriptively.
+<sub>Every verdict traces to a written rule and a spec section — no model in the judgement loop · findings are judgements about files, never about people · Seoul, KR · zero8004paz@gmail.com</sub>
