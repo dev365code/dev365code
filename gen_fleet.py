@@ -32,10 +32,10 @@ for fname, name, desc, chip, chipcol, status, frac, faint in ROWS:
 <text x="24" y="46" font-family="{MONO}" font-size="10" letter-spacing="0.6" fill="#7d8a99">PyPI · Apache-2.0</text>
 <rect x="{28+name_w}" y="15" width="{chip_w}" height="17" rx="3" fill="{chipcol}"/>
 <text x="{28+name_w+chip_w/2:.0f}" y="27" font-family="{MONO}" font-size="10.5" font-weight="600" fill="#ffffff" text-anchor="middle">{chip}</text>
-<text x="316" y="37" font-family="{SANS}" font-size="13.5" fill="#d8dfe5">{desc}</text>
-<text x="916" y="26" font-family="{MONO}" font-size="11" fill="#93a1ad" text-anchor="end">{status}</text>
-<rect x="712" y="36" width="204" height="7" rx="3.5" fill="#20262a"/>
-<rect x="712" y="36" width="{204*frac:.0f}" height="7" rx="3.5" fill="#7da7cf"{fill_op}/>
+<text x="316" y="33" font-family="{SANS}" font-size="13.5" fill="#d8dfe5">{desc}</text>
+<text x="916" y="24" font-family="{MONO}" font-size="11" fill="#93a1ad" text-anchor="end">{status}</text>
+<rect x="712" y="42" width="204" height="7" rx="3.5" fill="#20262a"/>
+<rect x="712" y="42" width="{204*frac:.0f}" height="7" rx="3.5" fill="#7da7cf"{fill_op}/>
 </svg>'''
     open(f'assets/fleet-{fname}.svg', 'w', encoding='utf-8').write(svg)
     print(f'assets/fleet-{fname}.svg')
