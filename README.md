@@ -8,7 +8,7 @@
 <!-- profile:end -->
 
 <div align="center">
-  <img src="assets/hero.svg?v=420db784" alt="Standards, judged offline — AI proposes, rules judge, people decide. Machines enter Europe on paperwork; these tools judge the paperwork. iiRDS · VDI 2770 · AAS" width="100%">
+  <img src="assets/hero.svg?v=e87d254d" alt="Standards, judged offline — AI proposes, rules judge, people decide. Machines enter Europe on paperwork; these tools judge the paperwork. iiRDS · VDI 2770 · AAS" width="100%">
 </div>
 
 <div align="center">

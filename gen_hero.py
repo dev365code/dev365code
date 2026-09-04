@@ -45,7 +45,7 @@ LANGS = [  # two rows of four; column starts are fixed so the rows align like a 
     [("PL", "#b3c583", "Zweryfikowano offline"), ("CS", "#d4bd7a", "Ověřeno offline"),
      ("KO", "#ddab74", "오프라인 검증"), ("JA", "#d99a86", "オフラインで検証")],
 ]
-COLX = [86, 306, 526, 746]
+COLX = [90, 309, 493, 692]   # measured column widths, block centred on 470
 
 def langrow(items, y):
     out = []
