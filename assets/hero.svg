@@ -10,7 +10,11 @@
 <circle cx="470" cy="100" r="58" fill="none" stroke="#8fb8dd" stroke-opacity=".5" stroke-width="9" filter="url(#softer)"/>
 <circle cx="470" cy="100" r="51" fill="#03050a"/>
 <circle cx="470" cy="100" r="57" fill="none" stroke="#ffeede" stroke-opacity=".85" stroke-width="2.4" filter="url(#soft)"/>
-<g><circle cx="470" cy="100" r="57" fill="none" stroke="#fff1e0" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="42 316" filter="url(#soft)"/>
+<g filter="url(#soft)">
+<circle cx="470" cy="100" r="57" fill="none" stroke="#9fc0e0" stroke-opacity=".14" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="86 272.1" stroke-dashoffset="70"/>
+<circle cx="470" cy="100" r="57" fill="none" stroke="#cfe0f5" stroke-opacity=".30" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="58 300.1" stroke-dashoffset="42"/>
+<circle cx="470" cy="100" r="57" fill="none" stroke="#ffe9cf" stroke-opacity=".60" stroke-width="4.6" stroke-linecap="round" stroke-dasharray="34 324.1" stroke-dashoffset="18"/>
+<circle cx="470" cy="100" r="57" fill="none" stroke="#fff1e0" stroke-opacity=".95" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 342.1"/>
 <animateTransform attributeName="transform" type="rotate" from="0 470 100" to="360 470 100" dur="16s" repeatCount="indefinite"/></g>
 <text x="470" y="208" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="3.2" fill="#93a1ad" text-anchor="middle">INDUSTRIAL DOCUMENT STANDARDS</text>
 <text x="470" y="252" font-family="-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Apple SD Gothic Neo','Malgun Gothic','Hiragino Sans',sans-serif" font-size="37" font-weight="700" fill="#e8edf2" text-anchor="middle">Standards, <tspan fill="#8fb8dd">judged offline.</tspan></text>
