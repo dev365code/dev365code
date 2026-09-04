@@ -43,7 +43,7 @@ LANGS = [  # two rows of four; column starts are fixed so the rows align like a 
     [("DE", "#7da7cf", "Offline geprüft"), ("FR", "#7db8cf", "Validé hors ligne"),
      ("IT", "#7dc7bd", "Convalidato offline"), ("NL", "#8cc79d", "Offline gevalideerd")],
     [("PL", "#b3c583", "Zweryfikowano offline"), ("CS", "#d4bd7a", "Ověřeno offline"),
-     ("KO", "#ddab74", "업로드 없이 검증합니다"), ("JA", "#d99a86", "オフラインで検証")],
+     ("KO", "#ddab74", "오프라인 검증"), ("JA", "#d99a86", "オフラインで検証")],
 ]
 COLX = [86, 306, 526, 746]
 
