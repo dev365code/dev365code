@@ -24,7 +24,7 @@ USER = "dev365code"
 PANEL_W = 56
 GAP_PX = 44
 FONT_PX, LINE_H, CW = 14, 20, 8.4
-SCALE = float(os.environ.get("SCALE", 2.0))   # how much bigger the 365 runs
+SCALE = float(os.environ.get("SCALE", 1.65))   # how much bigger the 365 runs
 PAD = 26
 
 HOST = "wooyong@lee"
