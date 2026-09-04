@@ -71,7 +71,7 @@ def chips_svg():
 
 import math as _m
 def _smear():
-    segs, N, R, SPAN = [], 32, 57, 94.0
+    segs, N, R, SPAN = [], 48, 57, 94.0
     C = 2 * _m.pi * R
     seg = C * (SPAN / 360.0) / N
     for i in range(N):
@@ -79,7 +79,7 @@ def _smear():
         op = 0.55 * (1 - abs(t - 0.5) * 2)
         off = -C * (SPAN / 360.0) * i / N
         segs.append('<circle cx="470" cy="100" r="57" fill="none" stroke="#ffeede" '
-                    f'stroke-opacity="{op:.3f}" stroke-width="17" '
+                    f'stroke-opacity="{op:.3f}" stroke-width="18" '
                     f'stroke-dasharray="{seg:.2f} {C - seg:.2f}" stroke-dashoffset="{off:.2f}"/>')
     return "".join(segs)
 SMEAR = _smear()
@@ -94,9 +94,9 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" role="im
 <rect width="940" height="470" fill="#0b0f14"/>
 <path d="{grid_path()}" fill="none" stroke="rgba(198,212,224,0.075)" stroke-width="1"/>
 <circle cx="470" cy="100" r="230" fill="url(#halo)"/>
-<circle cx="470" cy="100" r="58" fill="none" stroke="#8fb8dd" stroke-opacity=".5" stroke-width="9" filter="url(#softer)"/>
+<circle cx="470" cy="100" r="58" fill="none" stroke="#8fb8dd" stroke-opacity=".28" stroke-width="7" filter="url(#softer)"/>
 <circle cx="470" cy="100" r="51" fill="#03050a"/>
-<circle cx="470" cy="100" r="57" fill="none" stroke="#ffeede" stroke-opacity=".85" stroke-width="2.4" filter="url(#soft)"/>
+<circle cx="470" cy="100" r="57" fill="none" stroke="#ffeede" stroke-opacity=".45" stroke-width="2" filter="url(#soft)"/>
 <g filter="url(#smear)">
 {SMEAR}
 <animateTransform attributeName="transform" type="rotate" from="0 470 100" to="360 470 100" dur="16s" repeatCount="indefinite"/></g>
