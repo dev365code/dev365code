@@ -13,7 +13,7 @@ SANS = "-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif"
 
 ROWS = [
     ("iirds", "iirds", "Judges iiRDS 1.3 documentation packages — validator + reader, one install",
-     "v0.6.0", "#2f6fb3", "167 / 280 obligations · a floor", 0.596, False),
+     "v0.6.0", "#2f6fb3", "170 / 280 obligations · a floor", 0.607, False),
     ("vdi2770-validate", "vdi2770-validate", "Judges VDI 2770 documentation containers for machine delivery",
      "v0.7.0", "#2f6fb3", "obligation index: in the making", 0.06, False),
     ("aas-submodel-validate", "aas-submodel-validate", "Judges AAS submodels against IDTA templates",
