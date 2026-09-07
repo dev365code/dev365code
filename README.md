@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=e4ae88ca)](https://github.com/dev365code/iirds-validate)
+[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=d26738af)](https://github.com/dev365code/iirds-validate)
 [![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=28e9e8a2)](https://github.com/dev365code/vdi2770-validate)
 [![aas-submodel-validate — judges AAS submodels](assets/fleet-aas-submodel-validate.svg?v=358263d8)](https://github.com/dev365code/aas-submodel-validate)
 [![standards-watch — watches the standards](assets/fleet-standards-watch.svg?v=7e6c5923)](https://github.com/dev365code/standards-watch)
