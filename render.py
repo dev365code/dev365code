@@ -38,7 +38,7 @@ ROWS = [
     ("row",  "Languages.Real",        "Korean, English"),
     ("row",  "Hobbies",               "algorithmic trading, jigsaw puzzles"),
     ("sect", "Projects"),
-    ("row",  "iirds-validate",        "210 rules, offline, Apache-2.0"),
+    ("row",  "iirds-validate",        "211 rules, offline, Apache-2.0"),
     ("row",  "document AI",           "structure out of PDFs"),
     ("sect", "Contact"),
     ("row",  "Email",                 "zero8004paz@gmail.com"),

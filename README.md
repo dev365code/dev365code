@@ -1,8 +1,8 @@
 <!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=f59fc69c9e">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 210 rules, offline, Apache-2.0 / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 1,872 (1,670 in 2026) / Latest push: standards-watch, 2026-09-19" src="profile-light.svg?v=2cc9c9a50e" width="982">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=9b703c51e2">
+    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 211 rules, offline, Apache-2.0 / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 1,872 (1,670 in 2026) / Latest push: standards-watch, 2026-09-19" src="profile-light.svg?v=b2f0bc8b63" width="982">
   </picture>
 </div>
 <!-- profile:end -->
@@ -13,8 +13,8 @@
 
 <div align="center">
 
-[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=1dd174b0)](https://github.com/dev365code/iirds-validate)
-[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=982a19f5)](https://github.com/dev365code/vdi2770-validate)
+[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=ef7ff570)](https://github.com/dev365code/iirds-validate)
+[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=9e786708)](https://github.com/dev365code/vdi2770-validate)
 [![aas-submodel-validate — judges AAS submodels](assets/fleet-aas-submodel-validate.svg?v=5bfe65e9)](https://github.com/dev365code/aas-submodel-validate)
 [![standards-watch — watches the standards](assets/fleet-standards-watch.svg?v=7e6c5923)](https://github.com/dev365code/standards-watch)
 
