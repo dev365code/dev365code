@@ -17,7 +17,7 @@ ROWS = [
     ("vdi2770-validate", "vdi2770-validate", "Judges VDI 2770 documentation containers for machine delivery",
      "v0.9.0", "#2f6fb3", "obligation index: in the making", 0.06, False),
     ("aas-submodel-validate", "aas-submodel-validate", "Judges AAS submodels against IDTA templates",
-     "v0.4.0", "#3d8b57", "template packs: 6 shipped", 0.24, False),
+     "v0.4.1", "#3d8b57", "template packs: 6 shipped", 0.24, False),
     ("standards-watch", "standards-watch", "Watches the standards themselves — releases, errata, template changes",
      "daily", "#a8721c", "observation, on the record", 1.0, True),
 ]
