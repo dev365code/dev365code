@@ -15,7 +15,7 @@ ROWS = [
     ("iirds", "iirds", "Judges iiRDS 1.3 documentation packages — validator + reader, one install",
      "v0.7.1", "#2f6fb3", "172 / 280 obligations · a floor", 0.614, False),
     ("vdi2770-validate", "vdi2770-validate", "Judges VDI 2770 documentation containers for machine delivery",
-     "v0.9.6", "#2f6fb3", "obligation index: in the making", 0.06, False),
+     "v0.9.7", "#2f6fb3", "obligation index: in the making", 0.06, False),
     ("aas-submodel-validate", "aas-submodel-validate", "Judges AAS submodels against IDTA templates",
      "v0.7.1", "#3d8b57", "template packs: 6 shipped · any template by file", 0.24, False),
     ("standards-watch", "standards-watch", "Watches the standards themselves — releases, errata, template changes",
