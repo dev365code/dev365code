@@ -38,7 +38,7 @@ ROWS = [
     ("row",  "Languages.Real",        "Korean, English"),
     ("row",  "Hobbies",               "algorithmic trading, jigsaw puzzles"),
     ("sect", "Projects"),
-    ("row",  "iirds-validate",        "247 rules, 0.9.0"),
+    ("row",  "iirds-validate",        "252 rules, 0.9.1"),
     ("row",  "vdi2770-validate",      "44 rules, 1.0.0"),
     ("row",  "aas-submodel-validate", "470 rules, 1.0.0"),
     ("row",  "licence",               "Apache-2.0, offline"),
