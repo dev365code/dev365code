@@ -1,8 +1,8 @@
 <!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=d160fbea90">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 211 rules, offline, Apache-2.0 / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 5,418 (5,216 in 2026) / Latest push: vdi2770-validate, 2026-10-25" src="profile-light.svg?v=55137b9675" width="982">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=bd6311b451">
+    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 247 rules, 0.9.0 / vdi2770-validate: 44 rules, 1.0.0 / aas-submodel-validate: 470 rules, 1.0.0 / licence: Apache-2.0, offline / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 5,418 (5,216 in 2026) / Latest push: vdi2770-validate, 2026-10-25" src="profile-light.svg?v=caa53c324c" width="982">
   </picture>
 </div>
 <!-- profile:end -->
@@ -13,9 +13,9 @@
 
 <div align="center">
 
-[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=ef7ff570)](https://github.com/dev365code/iirds-validate)
-[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=9e786708)](https://github.com/dev365code/vdi2770-validate)
-[![aas-submodel-validate — judges AAS submodels](assets/fleet-aas-submodel-validate.svg?v=a56eecfb)](https://github.com/dev365code/aas-submodel-validate)
+[![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=66fcfbea)](https://github.com/dev365code/iirds-validate)
+[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=e70dc660)](https://github.com/dev365code/vdi2770-validate)
+[![aas-submodel-validate — judges AAS submodels](assets/fleet-aas-submodel-validate.svg?v=89a553f8)](https://github.com/dev365code/aas-submodel-validate)
 [![standards-watch — watches the standards](assets/fleet-standards-watch.svg?v=7e6c5923)](https://github.com/dev365code/standards-watch)
 
 </div>
