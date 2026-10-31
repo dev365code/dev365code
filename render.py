@@ -40,7 +40,7 @@ ROWS = [
     ("sect", "Projects"),
     ("row",  "iirds-validate",        "252 rules, 0.9.1"),
     ("row",  "vdi2770-validate",      "44 rules, 1.0.0"),
-    ("row",  "aas-submodel-validate", "470 rules, 1.0.1"),
+    ("row",  "aas-submodel-validate", "470 rules, 1.0.2"),
     ("row",  "licence",               "Apache-2.0, offline"),
     ("row",  "document AI",           "structure out of PDFs"),
     ("sect", "Contact"),
