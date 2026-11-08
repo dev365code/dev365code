@@ -1,8 +1,8 @@
 <!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=751f8ae245">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 252 rules, 0.9.1 / vdi2770-validate: 44 rules, 1.0.0 / aas-submodel-validate: 470 rules, 1.1.0 / licence: Apache-2.0, offline / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 6,160 (5,958 in 2026) / Latest push: standards-watch, 2026-11-06" src="profile-light.svg?v=da69138d19" width="982">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=3ae46e79f1">
+    <img alt="dev365code - OS: macOS 26.5.1, Linux / Shell: zsh / Editor: VS Code / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 252 rules, 0.9.1 / vdi2770-validate: 44 rules, 1.0.0 / aas-submodel-validate: 470 rules, 1.1.0 / licence: Apache-2.0, offline / document AI: structure out of PDFs / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 6,311 (6,109 in 2026) / Latest push: iirds-validate, 2026-11-07" src="profile-light.svg?v=ce981223b7" width="982">
   </picture>
 </div>
 <!-- profile:end -->
