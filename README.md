@@ -8,6 +8,10 @@
 <!-- profile:end -->
 
 <div align="center">
+  <a href="https://github.com/dev365code/dirty-code"><img src="https://raw.githubusercontent.com/dev365code/dirty-code/main/assets/cover-web.jpg" alt="Dirty Code: Writing Code for AI Readers. A book in progress by Wooyong Lee. The cover: a rainbow tangle of spaghetti code writes the title." width="100%"></a>
+</div>
+
+<div align="center">
   <img src="assets/hero.svg?v=e87d254d" alt="Standards, judged offline — AI proposes, rules judge, people decide. Machines enter Europe on paperwork; these tools judge the paperwork. iiRDS · VDI 2770 · AAS" width="100%">
 </div>
 
