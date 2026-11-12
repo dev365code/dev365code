@@ -8,7 +8,7 @@
 <!-- profile:end -->
 
 <div align="center">
-  <a href="https://github.com/dev365code/dirty-code"><img src="https://raw.githubusercontent.com/dev365code/dirty-code/main/assets/cover-web.jpg" alt="Dirty Code: Writing Code for AI Readers. A book in progress by Wooyong Lee. The cover: a rainbow tangle of spaghetti code writes the title." width="100%"></a>
+  <a href="https://github.com/dev365code/dirty-code"><img src="https://raw.githubusercontent.com/dev365code/dirty-code/main/assets/banner-web.jpg?v=69e02f20" alt="Dirty Code: Writing Code for AI Readers. A book in progress by Wooyong Lee. The banner: a rainbow tangle of spaghetti code writes the title." width="100%"></a>
 </div>
 
 <div align="center">
