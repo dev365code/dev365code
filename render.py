@@ -21,6 +21,7 @@ import re, json, os, pathlib, sys, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 USER = "dev365code"
+SKIP_REPOS = {"easter-egg"}
 PANEL_W = 56
 GAP_PX = 44
 FONT_PX, LINE_H, CW = 14, 20, 8.4
@@ -106,7 +107,8 @@ def refresh():
             break
         repos += got
         page += 1
-    own = [r for r in repos if not r["fork"]]
+    # easter-egg holds the pixel art drawn on the empty 2019-2024 graph, not work.
+    own = [r for r in repos if not r["fork"] and r["name"] not in SKIP_REPOS]
 
     tot = {}
     for r in own:
@@ -120,7 +122,8 @@ def refresh():
     out["Latest push"] = f'{newest["name"]}, {newest["pushed_at"][:10]}'
 
     try:
-        years = range(2019, 2027)
+        # 2019-2024 carry only the easter-egg pixel art; real commits start in 2025.
+        years = range(2025, 2027)
         q = "{user(login:\"%s\"){%s}}" % (USER, " ".join(
             f'y{y}:contributionsCollection(from:"{y}-01-01T00:00:00Z",'
             f'to:"{y}-12-31T23:59:59Z"){{totalCommitContributions '
