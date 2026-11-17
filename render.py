@@ -38,7 +38,7 @@ ROWS = [
     ("row",  "Hobbies",               "algorithmic trading, jigsaw puzzles"),
     ("sect", "Projects"),
     ("row",  "iirds-validate",        "252 rules, 0.9.1"),
-    ("row",  "vdi2770-validate",      "44 rules, 1.0.3"),
+    ("row",  "vdi2770-validate",      "44 rules, 1.1.0"),
     ("row",  "aas-submodel-validate", "470 rules, 1.2.0"),
     ("sect", "Contact"),
     ("row",  "Email",                 "zero8004paz@gmail.com"),

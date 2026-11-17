@@ -1,8 +1,8 @@
 <!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=3299c26b36">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 252 rules, 0.9.1 / vdi2770-validate: 44 rules, 1.0.3 / aas-submodel-validate: 470 rules, 1.2.0 / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 7,481 (7,279 in 2026) / Latest push: standards-watch, 2026-11-16" src="profile-light.svg?v=6b84eb5192" width="982">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=3e8327123d">
+    <img alt="dev365code - OS: macOS 26.5.1, Linux / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 252 rules, 0.9.1 / vdi2770-validate: 44 rules, 1.1.0 / aas-submodel-validate: 470 rules, 1.2.0 / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 7,481 (7,279 in 2026) / Latest push: standards-watch, 2026-11-16" src="profile-light.svg?v=00cb7de65f" width="982">
   </picture>
 </div>
 <!-- profile:end -->
@@ -18,7 +18,7 @@
 <div align="center">
 
 [![iirds — judges iiRDS 1.3 packages](assets/fleet-iirds.svg?v=7250e856)](https://github.com/dev365code/iirds-validate)
-[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=7fe6fea4)](https://github.com/dev365code/vdi2770-validate)
+[![vdi2770-validate — judges VDI 2770 containers](assets/fleet-vdi2770-validate.svg?v=d815914b)](https://github.com/dev365code/vdi2770-validate)
 [![aas-submodel-validate — judges AAS submodels](assets/fleet-aas-submodel-validate.svg?v=b3e617dc)](https://github.com/dev365code/aas-submodel-validate)
 [![standards-watch — watches the standards](assets/fleet-standards-watch.svg?v=7e6c5923)](https://github.com/dev365code/standards-watch)
 
