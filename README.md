@@ -1,8 +1,8 @@
 <!-- profile:start (rendered by render.py -- edit render.py, not this block) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=f50bb59786">
-    <img alt="dev365code - OS: macOS 26.5.1, Linux / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 254 rules, 0.10.0 / vdi2770-validate: 44 rules, 1.1.0 / aas-submodel-validate: 470 rules, 1.2.0 / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 7,752 (7,550 in 2026) / Latest push: dirty-code, 2026-11-23" src="profile-light.svg?v=5e34279bd5" width="982">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-dark.svg?v=299ea7b11c">
+    <img alt="dev365code - OS: macOS 26.5.1, Linux / Location: Seoul, KR / Languages.Programming: Python, Java, JavaScript / Languages.Real: Korean, English / Hobbies: algorithmic trading, jigsaw puzzles / iirds-validate: 254 rules, 0.10.0 / vdi2770-validate: 44 rules, 1.1.0 / aas-submodel-validate: 470 rules, 1.2.0 / Email: zero8004paz@gmail.com / GitHub: dev365code / Commits: 7,790 (7,588 in 2026) / Latest push: standards-watch, 2026-11-23" src="profile-light.svg?v=49e26bba3b" width="982">
   </picture>
 </div>
 <!-- profile:end -->
